@@ -1,0 +1,660 @@
+{
+  "figma_file": {
+    "name": "Product Requirement Document (PRD) - Banking - UI Design",
+    "version": "1.0.0",
+    "created_at": "2025-11-08T13:39:41.227212",
+    "document": {
+      "id": "6878a69c-c807-4f14-bf0d-422903e5a3bb",
+      "name": "Document",
+      "type": "DOCUMENT",
+      "children": [
+        {
+          "id": "8f0112b2-f58c-4b3f-9313-2ba8b185c351",
+          "name": "Design System",
+          "type": "PAGE",
+          "children": [
+            {
+              "id": "184ef1c7-3fc7-43d4-8266-727fdad7afb8",
+              "name": "Colors",
+              "type": "FRAME",
+              "children": [
+                {
+                  "id": "478986bd-c0e6-4e3a-b6ee-4daad67eceba",
+                  "name": "Primary",
+                  "type": "RECTANGLE",
+                  "x": 0,
+                  "y": 0,
+                  "width": 200,
+                  "height": 60,
+                  "fills": [
+                    {
+                      "type": "SOLID",
+                      "color": {
+                        "r": 0.11764705882352941,
+                        "g": 0.22745098039215686,
+                        "b": 0.5411764705882353
+                      }
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "f86a990e-9fe0-4714-a2eb-f452be4ddaea",
+                      "name": "Color Label",
+                      "type": "TEXT",
+                      "x": 10,
+                      "y": 20,
+                      "characters": "Primary: #1E3A8A",
+                      "style": {
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                        "fill": "#FFFFFF"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "57e2ba94-b308-4135-91ae-70f2e7954648",
+                  "name": "Secondary",
+                  "type": "RECTANGLE",
+                  "x": 0,
+                  "y": 80,
+                  "width": 200,
+                  "height": 60,
+                  "fills": [
+                    {
+                      "type": "SOLID",
+                      "color": {
+                        "r": 0.0196078431372549,
+                        "g": 0.5882352941176471,
+                        "b": 0.4117647058823529
+                      }
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "ff350b5d-b79f-4264-b89c-cdde43a3ec24",
+                      "name": "Color Label",
+                      "type": "TEXT",
+                      "x": 10,
+                      "y": 100,
+                      "characters": "Secondary: #059669",
+                      "style": {
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                        "fill": "#FFFFFF"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "35f2b5e9-797f-419f-84d5-1257d29d8632",
+                  "name": "Accent",
+                  "type": "RECTANGLE",
+                  "x": 0,
+                  "y": 160,
+                  "width": 200,
+                  "height": 60,
+                  "fills": [
+                    {
+                      "type": "SOLID",
+                      "color": {
+                        "r": 0.8627450980392157,
+                        "g": 0.14901960784313725,
+                        "b": 0.14901960784313725
+                      }
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "91faa5af-ad39-4934-9c8a-3ccd8fe5da3c",
+                      "name": "Color Label",
+                      "type": "TEXT",
+                      "x": 10,
+                      "y": 180,
+                      "characters": "Accent: #DC2626",
+                      "style": {
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                        "fill": "#FFFFFF"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "9f0e5d42-dfb5-481d-bd7b-6ff1981626d3",
+                  "name": "Background",
+                  "type": "RECTANGLE",
+                  "x": 0,
+                  "y": 240,
+                  "width": 200,
+                  "height": 60,
+                  "fills": [
+                    {
+                      "type": "SOLID",
+                      "color": {
+                        "r": 0.9725490196078431,
+                        "g": 0.9803921568627451,
+                        "b": 0.9882352941176471
+                      }
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "4c4d8706-dab7-40aa-bdb0-fa36c8231af1",
+                      "name": "Color Label",
+                      "type": "TEXT",
+                      "x": 10,
+                      "y": 260,
+                      "characters": "Background: #F8FAFC",
+                      "style": {
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                        "fill": "#000000"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "a064c49d-ccd8-40d1-a1c0-c87977d2db8d",
+                  "name": "Text",
+                  "type": "RECTANGLE",
+                  "x": 0,
+                  "y": 320,
+                  "width": 200,
+                  "height": 60,
+                  "fills": [
+                    {
+                      "type": "SOLID",
+                      "color": {
+                        "r": 0.12156862745098039,
+                        "g": 0.1607843137254902,
+                        "b": 0.21568627450980393
+                      }
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "57994275-0590-46f7-b5ba-e1bbc00735b5",
+                      "name": "Color Label",
+                      "type": "TEXT",
+                      "x": 10,
+                      "y": 340,
+                      "characters": "Text: #1F2937",
+                      "style": {
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                        "fill": "#FFFFFF"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "37639457-58cd-480d-9d73-3c9cee7fd345",
+              "name": "Typography",
+              "type": "FRAME",
+              "children": [
+                {
+                  "id": "00aaa356-3226-4215-aaf3-9ea3381427d8",
+                  "name": "H1",
+                  "type": "TEXT",
+                  "x": 0,
+                  "y": 0,
+                  "characters": "This is H1 text",
+                  "style": {
+                    "fontSize": 32,
+                    "fontWeight": 700,
+                    "fill": "#1F2937"
+                  }
+                },
+                {
+                  "id": "17f525ec-b43e-4296-9ea2-9f1a995cce86",
+                  "name": "H2",
+                  "type": "TEXT",
+                  "x": 0,
+                  "y": 52,
+                  "characters": "This is H2 text",
+                  "style": {
+                    "fontSize": 24,
+                    "fontWeight": 600,
+                    "fill": "#1F2937"
+                  }
+                },
+                {
+                  "id": "8f2446e5-dbee-4c55-99c9-cbc0d3f4281f",
+                  "name": "H3",
+                  "type": "TEXT",
+                  "x": 0,
+                  "y": 96,
+                  "characters": "This is H3 text",
+                  "style": {
+                    "fontSize": 20,
+                    "fontWeight": 600,
+                    "fill": "#1F2937"
+                  }
+                },
+                {
+                  "id": "4570e467-e0f3-4ade-8c40-1f7ea4b4a946",
+                  "name": "H4",
+                  "type": "TEXT",
+                  "x": 0,
+                  "y": 136,
+                  "characters": "This is H4 text",
+                  "style": {
+                    "fontSize": 18,
+                    "fontWeight": 500,
+                    "fill": "#1F2937"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4ce2bdc2-19ab-4a27-812e-20d8d4dec4b7",
+          "name": "Screens",
+          "type": "PAGE",
+          "children": [
+            {
+              "name": "Login Screen",
+              "width": 375,
+              "height": 812,
+              "background_color": "#F8FAFC",
+              "components": [
+                {
+                  "type": "frame",
+                  "name": "Login Container",
+                  "x": 20,
+                  "y": 200,
+                  "width": 335,
+                  "height": 400,
+                  "background_color": "#FFFFFF",
+                  "border_radius": 12,
+                  "shadow": "0 4px 6px rgba(0, 0, 0, 0.1)",
+                  "children": [
+                    {
+                      "type": "text",
+                      "name": "Title",
+                      "text": "Welcome to Product Requirement Document (PRD) - Banking",
+                      "x": 20,
+                      "y": 40,
+                      "width": 295,
+                      "height": 32,
+                      "font_size": 24,
+                      "font_weight": 600,
+                      "color": "#1F2937"
+                    },
+                    {
+                      "type": "input",
+                      "name": "Email Input",
+                      "placeholder": "Enter your email",
+                      "x": 20,
+                      "y": 100,
+                      "width": 295,
+                      "height": 48,
+                      "border_radius": 8,
+                      "border_color": "#E5E7EB"
+                    },
+                    {
+                      "type": "input",
+                      "name": "Password Input",
+                      "placeholder": "Enter your password",
+                      "x": 20,
+                      "y": 170,
+                      "width": 295,
+                      "height": 48,
+                      "border_radius": 8,
+                      "border_color": "#E5E7EB"
+                    },
+                    {
+                      "type": "button",
+                      "name": "Login Button",
+                      "text": "Sign In",
+                      "x": 20,
+                      "y": 250,
+                      "width": 295,
+                      "height": 48,
+                      "background_color": "#1E3A8A",
+                      "text_color": "#FFFFFF",
+                      "border_radius": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Dashboard",
+              "width": 1440,
+              "height": 1024,
+              "background_color": "#F8FAFC",
+              "components": [
+                {
+                  "type": "frame",
+                  "name": "Header",
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 80,
+                  "background_color": "#FFFFFF",
+                  "shadow": "0 1px 2px rgba(0, 0, 0, 0.05)",
+                  "children": [
+                    {
+                      "type": "text",
+                      "name": "App Title",
+                      "text": "Product Requirement Document (PRD) - Banking",
+                      "x": 24,
+                      "y": 24,
+                      "font_size": 20,
+                      "font_weight": 600,
+                      "color": "#1F2937"
+                    },
+                    {
+                      "type": "button",
+                      "name": "User Menu",
+                      "text": "\ud83d\udc64",
+                      "x": 1300,
+                      "y": 20,
+                      "width": 40,
+                      "height": 40,
+                      "background_color": "#1E3A8A",
+                      "border_radius": 20
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "name": "Sidebar",
+                  "x": 0,
+                  "y": 80,
+                  "width": 240,
+                  "height": 944,
+                  "background_color": "#F8FAFC",
+                  "children": [
+                    {
+                      "type": "text",
+                      "name": "Navigation",
+                      "text": "Navigation",
+                      "x": 24,
+                      "y": 24,
+                      "font_size": 14,
+                      "font_weight": 500,
+                      "color": "#1F2937"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "name": "Main Content",
+                  "x": 240,
+                  "y": 80,
+                  "width": 1200,
+                  "height": 944,
+                  "background_color": "#F8FAFC",
+                  "children": [
+                    {
+                      "type": "text",
+                      "name": "Welcome Message",
+                      "text": "Welcome to Product Requirement Document (PRD) - Banking",
+                      "x": 24,
+                      "y": 24,
+                      "font_size": 32,
+                      "font_weight": 700,
+                      "color": "#1F2937"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "design_system": {
+    "colors": {
+      "primary": "#1E3A8A",
+      "secondary": "#059669",
+      "accent": "#DC2626",
+      "background": "#F8FAFC",
+      "text": "#1F2937"
+    },
+    "typography": {
+      "heading_font": "Inter",
+      "body_font": "Inter",
+      "heading_sizes": {
+        "h1": {
+          "size": 32,
+          "weight": 700
+        },
+        "h2": {
+          "size": 24,
+          "weight": 600
+        },
+        "h3": {
+          "size": 20,
+          "weight": 600
+        },
+        "h4": {
+          "size": 18,
+          "weight": 500
+        }
+      },
+      "body_sizes": {
+        "large": {
+          "size": 18,
+          "weight": 400
+        },
+        "medium": {
+          "size": 16,
+          "weight": 400
+        },
+        "small": {
+          "size": 14,
+          "weight": 400
+        }
+      }
+    },
+    "spacing": {
+      "xs": 4,
+      "sm": 8,
+      "md": 16,
+      "lg": 24,
+      "xl": 32,
+      "xxl": 48
+    },
+    "border_radius": {
+      "small": 4,
+      "medium": 8,
+      "large": 12,
+      "xl": 16
+    },
+    "shadows": {
+      "small": "0 1px 2px rgba(0, 0, 0, 0.05)",
+      "medium": "0 4px 6px rgba(0, 0, 0, 0.1)",
+      "large": "0 10px 15px rgba(0, 0, 0, 0.1)"
+    }
+  },
+  "screens": [
+    {
+      "id": "login_screen",
+      "name": "Login",
+      "type": "authentication",
+      "figma_data": {
+        "name": "Login Screen",
+        "width": 375,
+        "height": 812,
+        "background_color": "#F8FAFC",
+        "components": [
+          {
+            "type": "frame",
+            "name": "Login Container",
+            "x": 20,
+            "y": 200,
+            "width": 335,
+            "height": 400,
+            "background_color": "#FFFFFF",
+            "border_radius": 12,
+            "shadow": "0 4px 6px rgba(0, 0, 0, 0.1)",
+            "children": [
+              {
+                "type": "text",
+                "name": "Title",
+                "text": "Welcome to Product Requirement Document (PRD) - Banking",
+                "x": 20,
+                "y": 40,
+                "width": 295,
+                "height": 32,
+                "font_size": 24,
+                "font_weight": 600,
+                "color": "#1F2937"
+              },
+              {
+                "type": "input",
+                "name": "Email Input",
+                "placeholder": "Enter your email",
+                "x": 20,
+                "y": 100,
+                "width": 295,
+                "height": 48,
+                "border_radius": 8,
+                "border_color": "#E5E7EB"
+              },
+              {
+                "type": "input",
+                "name": "Password Input",
+                "placeholder": "Enter your password",
+                "x": 20,
+                "y": 170,
+                "width": 295,
+                "height": 48,
+                "border_radius": 8,
+                "border_color": "#E5E7EB"
+              },
+              {
+                "type": "button",
+                "name": "Login Button",
+                "text": "Sign In",
+                "x": 20,
+                "y": 250,
+                "width": 295,
+                "height": 48,
+                "background_color": "#1E3A8A",
+                "text_color": "#FFFFFF",
+                "border_radius": 8
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "dashboard_screen",
+      "name": "Dashboard",
+      "type": "main",
+      "figma_data": {
+        "name": "Dashboard",
+        "width": 1440,
+        "height": 1024,
+        "background_color": "#F8FAFC",
+        "components": [
+          {
+            "type": "frame",
+            "name": "Header",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 80,
+            "background_color": "#FFFFFF",
+            "shadow": "0 1px 2px rgba(0, 0, 0, 0.05)",
+            "children": [
+              {
+                "type": "text",
+                "name": "App Title",
+                "text": "Product Requirement Document (PRD) - Banking",
+                "x": 24,
+                "y": 24,
+                "font_size": 20,
+                "font_weight": 600,
+                "color": "#1F2937"
+              },
+              {
+                "type": "button",
+                "name": "User Menu",
+                "text": "\ud83d\udc64",
+                "x": 1300,
+                "y": 20,
+                "width": 40,
+                "height": 40,
+                "background_color": "#1E3A8A",
+                "border_radius": 20
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "Sidebar",
+            "x": 0,
+            "y": 80,
+            "width": 240,
+            "height": 944,
+            "background_color": "#F8FAFC",
+            "children": [
+              {
+                "type": "text",
+                "name": "Navigation",
+                "text": "Navigation",
+                "x": 24,
+                "y": 24,
+                "font_size": 14,
+                "font_weight": 500,
+                "color": "#1F2937"
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "Main Content",
+            "x": 240,
+            "y": 80,
+            "width": 1200,
+            "height": 944,
+            "background_color": "#F8FAFC",
+            "children": [
+              {
+                "type": "text",
+                "name": "Welcome Message",
+                "text": "Welcome to Product Requirement Document (PRD) - Banking",
+                "x": 24,
+                "y": 24,
+                "font_size": 32,
+                "font_weight": 700,
+                "color": "#1F2937"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "app_info": {
+    "title": "Product Requirement Document (PRD) - Banking",
+    "description": "A modern web application",
+    "features": [],
+    "user_roles": [
+      "User"
+    ],
+    "color_scheme": {
+      "primary": "#1E3A8A",
+      "secondary": "#059669",
+      "accent": "#DC2626",
+      "background": "#F8FAFC",
+      "text": "#1F2937"
+    },
+    "app_type": "web_app",
+    "target_audience": "General users",
+    "platform": "Web",
+    "framework": "React"
+  },
+  "generated_at": "2025-11-08T13:39:41.227785"
+}
