@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #1E3A8A;
+  --color-secondary: #059669;
+  --color-accent: #DC2626;
+  --color-background: #F8FAFC;
+  --color-text: #1F2937;
+}
+
+/* Usage examples */
+.primary { color: var(--color-primary); }
+.secondary { color: var(--color-secondary); }
+.background { background-color: var(--color-background); }
+.text { color: var(--color-text); }
